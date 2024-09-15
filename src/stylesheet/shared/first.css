@@ -1,11 +1,6 @@
 body {
   margin: 0 auto;
-  display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  font-size: 20px;
-  /* font-family: "Gotham Rounded"; */
 }
 
 a:hover {
@@ -16,23 +11,17 @@ a:hover {
   padding: 0 1rem;
   padding-top: 1rem;
   background-color: #808080;
-  /* color: hsl(200, 100%, 90%); */
   min-height: 100vh;
 }
 
 .name-card {
-  /* display: block; */
-  /* margin: auto; */
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   padding: 1rem 5rem;
-  /* margin-bottom: 2rem; */
 }
 
 .name-card-text {
   margin: auto;
-  /* margin-bottom: 2rem; */
   padding-top: 1rem;
 }
 
@@ -40,7 +29,6 @@ a:hover {
   margin: auto;
   font-size: 1rem;
   margin-bottom: 0.5rem;
-  /* padding-top: 1rem; */
 }
 
 .imgWrapper {
@@ -50,7 +38,4 @@ a:hover {
 
 .resumeImg {
   max-width: 700px;
-  /* height:"800px";
-    width:"400px";
-    margin: auto" */
 }
