@@ -4,13 +4,12 @@ import pic from './assets/images/pic.jpg'
 function App() {
   return (
     <>
-      <div class="container-fluid text-bg">
+      <div className="container-fluid text-bg">
 
         <div className="name-card">
           <img
             className="imgWrapper"
             src={pic}
-
             alt="Adetula Johnson Zion"
           />
 
@@ -30,13 +29,56 @@ function App() {
           </div>
 
         </div>
+
         <h2 className="project-header">Projects</h2>
 
         <div className="project-wrapper">
+          <div className="project-card">
+            <h4 className="project-name">Eventful</h4>
+            <p className="project-text">
+              Eventful is a platform for event lovers to checkout and create various events of their choice.
+              This app is powered by Node, Typescript, Vite & React, Vercel and Hostless.
+            </p>
+            <a
+              className="card-link"
+              target="_blank"
+              href="https://github.com/mczionjohnson/test-server-eventful"
+            >
+              <i className="fa fa-github-square fa-2x" aria-hidden="true"></i>
+            </a>
+            <a
+              className="card-link"
+              target="_blank"
+              href="https://test-client-eventful.vercel.app/"
+            >
+              <i className="fa fa-link fa-2x" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <div className="project-card">
+            <h4 className="project-name">Wishes</h4>
+            <p className="project-text">
+              Who wouldn't like a birthday wish? 😀🎁 Get a message on your special day when you sign up here.
+              Ciao 🎊
+            </p>
+            <a
+              className="card-link"
+              target="_blank"
+              href="https://github.com/mczionjohnson/birthday-wishes"
+            >
+              <i className="fa fa-github-square fa-2x" aria-hidden="true"></i>
+            </a>
+            <a
+              className="card-link"
+              target="_blank"
+              href="https://wishes.hostless.app/"
+            >
+              <i className="fa fa-link fa-2x" aria-hidden="true"></i>
+            </a>
+          </div>
 
           <div className="project-card">
             <h4 className="project-name">Library app</h4>
-
             <p className="project-text">
               Welcome to a reference library that allows book lovers get some facts
               about popular books. This app uses a role-based authentication with the
@@ -52,7 +94,7 @@ function App() {
             <a
               className="card-link"
               target="_blank"
-              href="https://penguin-book-library.onrender.com"
+              href="https://library-app.hostless.app"
             >
               <i className="fa fa-link fa-2x" aria-hidden="true"></i>
             </a>
@@ -60,7 +102,6 @@ function App() {
 
           <div className="project-card">
             <h4 className="project-name">Blogging app</h4>
-
             <p className="project-text">
               Connect to database and enjoy this secured server for a blogging app! It
               also has input validations and allows user authentications
@@ -75,16 +116,15 @@ function App() {
             <a
               className="card-link"
               target="_blank"
-              href="https://blogging-api-el66.onrender.com/"
+              href="https://pen.hostless.app"
             >
               <i className="fa fa-link fa-2x" aria-hidden="true"></i>
             </a>
           </div>
         </div>
+
         <div className="footer-wrapper">
           <h4 className="footer-text">You can reach me:</h4>
-
-
           <a className="footer-link" target="_blank" href="https://github.com/mczionjohnson">
             <i className="fa fa-github-square fa-2x" aria-hidden="true"></i>
           </a>
@@ -94,9 +134,6 @@ function App() {
           <a className="footer-link" target="_blank" href="https://www.linkedin.com/in/the-zion-johnson/">
             <i className="fa fa-linkedin fa-2x" aria-hidden="true"></i>
           </a>
-
-
-
         </div>
       </div>
     </>

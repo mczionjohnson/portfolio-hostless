@@ -1,24 +1,41 @@
 /* Responsiveness */
-@media only screen and (max-width: 1024px) {
+
+@media only screen and (max-width: 1170px) {
+  .container-fluid {
+    padding: 0;
+    background: black;
+    color: #808080;
+  }
+
   .about-me-sm {
     width: 350px;
     padding: 1rem;
   }
-  /* .name-card {
-    padding-top: .4rem;
-  } */
-
   .name-card-text {
     font-size: 2rem;
   }
-
   .name-card-role {
     font-size: 1rem;
   }
-
   .about-me-text {
     font-size: 0.8rem;
+  }
 
+  .project-card {
+    color: black;
+  }
+  .card-link {
+    color: black;
+  }
+  
+  .card-link:hover {
+    color: #213547;
+  }
+
+  .footer-text,
+  .footer-mail,
+  .footer-link {
+    color: #808080;
   }
 }
 
@@ -27,7 +44,6 @@
     padding: 0;
     background: black;
     color: #808080;
-    /* min-height: 100vh; */
   }
 
   .navbar-nav ul a {
@@ -45,7 +61,7 @@
   .name-card {
     display: grid;
     padding: 0;
-    padding-top: .4rem;
+    padding-top: 0.4rem;
   }
 
   .name-card-text {
@@ -56,8 +72,6 @@
 
   .name-card-role {
     font-size: 10px;
-    /* margin: auto;
-    padding: 0; */
   }
 
   .name-card-img {
@@ -93,9 +107,7 @@
   }
 
   .project-card {
-    /* margin: auto; */
     margin-bottom: 1rem;
-    /* max-width: 50%; */
   }
 
   .project-name {
@@ -117,18 +129,15 @@
 
   .footer-wrapper {
     margin-top: 10px;
-
   }
 
   .footer-text,
   .footer-mail {
-    /* margin: auto; */
     font-size: 10px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-
   .navbar-nav ul a {
     font-size: 10px;
     color: #808080;
@@ -136,7 +145,6 @@
 
   .project-wrapper {
     display: grid;
-    /* height: 280px; */
     width: 280px;
   }
 
@@ -147,7 +155,6 @@
   }
   .footer-text,
   .footer-mail {
-    /* margin: auto; */
     font-size: 10px;
   }
 }
