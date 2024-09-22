@@ -16,7 +16,7 @@ function App() {
           <div className="about-me-lg">
             <div className="about-me-sm">
               <h2 className="name-card-text">Zion Johnson</h2>
-              <h3 className="name-card-role">Backend Engineer</h3>
+              <h3 className="name-card-role">Fullstack/Backend Engineer</h3>
               <p className="about-me-text">
                 Zion is a motivated software developer and he is experienced in
                 Javascript and NodeJS. He is always interested in Web-Security and
